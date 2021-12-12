@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UGATeste - Teste Vocacional</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-video-catalog.css">
+</head>
+
+<body>
+    <div class="tm-page-wrap mx-auto">
+        <div class="position-relative">
+            <div class="position-absolute tm-site-header">
+                <div class="container-fluid position-relative">
+                    <div class="row">
+                        <div class="col-7 col-md-4">
+                            <a href="index.html" class="text-center tm-logo-container rounded">
+                                <i class="fas tm-site-logo mb-3"></i>
+                                <h1 class="tm-site-name">UGATeste</h1>
+                            </a>
+                        </div>
+                        <div class="col-5 col-md-8 ml-auto mr-0">
+                            <div class="tm-site-nav">
+                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
+                                    <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed"
+                                        type="button" data-toggle="collapse" data-target="#navbar-nav"
+                                        aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span>
+                                            <i class="fas fa-bars tm-menu-closed-icon"></i>
+                                            <i class="fas fa-times tm-menu-opened-icon"></i>
+                                        </span>
+                                    </button>
+                                    <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                        <ul class="navbar-nav text-uppercase">
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="preteste.html">Teste Vocacional</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="index.html">Vídeos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="about.html">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link tm-nav-link" href="contact.html">Quem somos nós </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tm-welcome-container tm-fixed-header tm-fixed-header-4">
+            </div>
+
+            <div id="tm-fixed-header-bg"></div>
+        </div>
+        <div class="container-fluid px-0">
+            <div class="mx-auto tm-content-container">
+                <div class="row mt-3 mb-5 pb-3">
+                    <div class="col-12">
+                        <div class="mx-auto tm-about-text-container px-3">
+                            <h2 class="tm-page-title mb-4 tm-text-primary">Teste Vocacional</h2>
+                            <hr>
+                            <div class="corpo">
+                                <p class="mb-4">Para fazer o teste Vocacional, atribua pontos a cada uma das
+                                    alternativas apresentadas nas vinte perguntas a seguir, sendo: "3" para a
+                                    alternativa com a qual você mais se identifica, "2" para aquela que tem muito a ver
+                                    com você, "1" para aquela que tem pouco a ver com você e "0" para aquela que não tem
+                                    nada a ver com você.</p>
+                                <hr>
+
+                                <form method="post" action="resultado.php">
+
+                                    <div>
+                                        <label>
+                                            
+                                            <h4>1) Na escola, você prefere/preferia assuntos ligados a:</h4>
+                                        </label>
+                                        <h5>a) Arte, esportes e atividades extracurriculares.</h5>
+                                        <select id="UmA" name="UmA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Biologia e genética.</h5>
+                                        <select id="UmB" name="UmB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Ciências humanas e idiomas.</h5>
+                                        <select id="UmC" name="UmC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Ciências exatas.</h5>
+                                        <select id="UmD" name="UmD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>2) Você prefere levar sua vida:</h4>
+                                        </label>
+                                        <h5>a) Com pouca rotina e poucas regras.</h5>
+                                        <select id="DoisA" name="DoisA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Com regras definidas e disciplina.</h5>
+                                        <select id="DoisB" name="DoisB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Interagindo com todo tipo de pessoa.</h5>
+                                        <select id="DoisC" name="DoisC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Com muita autonomia: "na sua".</h5>
+                                        <select id="DoisD" name="DoisD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>3) Você se descreveria como uma pessoa: </h4>
+                                        </label>
+                                        <h5>a) Impulsiva e um tanto aventureira.</h5>
+                                        <select id="TresA" name="TresA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Cautelosa e responsável.</h5>
+                                        <select id="TresB" name="TresB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Entusiasmada e muita amiga.</h5>
+                                        <select id="TresC" name="TresC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Calma e diferente da maioria.</h5>
+                                        <select id="TresD" name="TresD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>4) Você se considera uma pessoa: </h4>
+                                        </label>
+                                        <h5>a) Pratica e hábil para improvisar.</h5>
+                                        <select id="QuatroA" name="QuatroA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Batalhadora, que sabe o que quer.</h5>
+                                        <select id="QuatroB" name="QuatroB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Preocupada com questões humanas.</h5>
+                                        <select id="QuatroC" name="QuatroC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Capacitada para criar e inventar.</h5>
+                                        <select id="QuatroD" name="QuatroD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>5) De quais características você sente orgulho: </h4>
+                                        </label>
+                                        <h5>a) Audácia e facilidade para lidar com o inesperado.</h5>
+                                        <select id="CincoA" name="CincoA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Senso de dever e capacidade de dar exemplo.</h5>
+                                        <select id="CincoB" name="CincoB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Idealismo e disposição para compreender os outros.</h5>
+                                        <select id="CincoC" name="CincoC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Engenhosidade e rapidez mental.</h5>
+                                        <select id="CincoD" name="CincoD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>6) Costuma confiar mais em: </h4>
+                                        </label>
+                                        <h5>a) Percepção imediata.</h5>
+                                        <select id="SeisA" name="SeisA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Costumes e tradições.</h5>
+                                        <select id="SeisB" name="SeisB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Intuição.</h5>
+                                        <select id="SeisC" name="SeisC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Razão e lógica.</h5>
+                                        <select id="SeisD" name="SeisD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>7) Quase sempre você gosta de: </h4>
+                                        </label>
+                                        <h5>a) Causar impacto: os "holofotes" o atraem.</h5>
+                                        <select id="SeteA" name="SeteA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Ser visto como membro valioso de um grupo.</h5>
+                                        <select id="SeteB" name="SeteB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Sonhar em transformar o mundo.</h5>
+                                        <select id="SeteC" name="SeteC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Desvendar um enigma ou inventar algo útil.</h5>
+                                        <select id="SeteD" name="SeteD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>8) A vida é mais interessante quando você tem: </h4>
+                                        </label>
+                                        <h5>a) Desafios e situações cambiantes.</h5>
+                                        <select id="OitoA" name="OitoA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Segurança, emprego garantido e integração social.</h5>
+                                        <select id="OitoB" name="OitoB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Possibilidade de fazer algo para mudar o mundo.</h5>
+                                        <select id="OitoC" name="OitoC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Possibilidade de ir além do que já é conhecido.</h5>
+                                        <select id="OitoD" name="OitoD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>9) Você gostaria de ser: </h4>
+                                        </label>
+                                        <h5>a) Um craque na profissão que escolher.</h5>
+                                        <select id="NoveA" name="NoveA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Um executivo bem-sucedido.</h5>
+                                        <select id="NoveB" name="NoveB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Um profissional de prestígio.</h5>
+                                        <select id="NoveC" name="NoveC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Um especialista ou cientista.</h5>
+                                        <select id="NoveD" name="NoveD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>10) Você é muito bom (boa) lidando com: </h4>
+                                        </label>
+                                        <h5>a) Ferramentas, instrumentos e equipamentos.</h5>
+                                        <select id="DezA" name="DezA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Controle do tempo, comando e execução.</h5>
+                                        <select id="DezB" name="DezB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Pessoas de todos os níveis culturais e sociais.</h5>
+                                        <select id="DezC" name="DezC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Sistemas de construção (material ou mental).</h5>
+                                        <select id="DezD" name="DezD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>11) Antes de agir, você analisa: </h4>
+                                        </label>
+                                        <h5>a) As vantagens imediatas.</h5>
+                                        <select id="OnzeA" name="OnzeA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) As experiências já vividas.</h5>
+                                        <select id="OnzeB" name="OnzeB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) As possibilidades futuras.</h5>
+                                        <select id="OnzeC" name="OnzeC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) As condições e consequências.</h5>
+                                        <select id="OnzeD" name="OnzeD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>12) Gosta quando as pessoas: </h4>
+                                        </label>
+                                        <h5>a) O Surpreendem com um presente.</h5>
+                                        <select id="DozeA" name="DozeA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Expressam gratidão por algo que fez.</h5>
+                                        <select id="DozeB" name="DozeB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Reconhecem sua personalidade singular.</h5>
+                                        <select id="DozeC" name="DozeC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Reconhecem sua inteligência.</h5>
+                                        <select id="DozeD" name="DozeD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>13) Você costuma abraçar um novo projeto: </h4>
+                                        </label>
+                                        <h5>a) Com a cara e a coragem.</h5>
+                                        <select id="TrezeA" name="TrezeA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Guiado pela experiência.</h5>
+                                        <select id="TrezeB" name="TrezeB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Confiando na intuição e na criatividade.</h5>
+                                        <select id="TrezeC" name="TrezeC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Depois de verificar todas as variáveis.</h5>
+                                        <select id="TrezeD" name="TrezeD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>14) Geralmente, você prefere agir: </h4>
+                                        </label>
+                                        <h5>a) No calor do momento.</h5>
+                                        <select id="CatorzeA" name="CatorzeA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Com segurança e conforme o costume.</h5>
+                                        <select id="CatorzeB" name="CatorzeB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Quando está inspirado.</h5>
+                                        <select id="CatorzeC" name="CatorzeC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Quando um problema o desafia.</h5>
+                                        <select id="CatorzeD" name="CatorzeD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>15) Você fica motivado (a) quando:</h4>
+                                        </label>
+                                        <h5>a) Tem a oportunidade de superar obstáculos. </h5>
+                                        <select id="QuinzeA" name="QuinzeA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Experimenta estabilidade na vida profissional, ou seja, sabe em que
+                                            terreno está pisando.
+                                        </h5>
+                                        <select id="QuinzeB" name="QuinzeB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Harmonia e inspiração guiam a atividade.</h5>
+                                        <select id="QuinzeC" name="QuinzeC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Há liberdade para projetar o futuro.</h5>
+                                        <select id="QuinzeD" name="QuinzeD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>16) Em atividades de grupos, você prefere: </h4>
+                                        </label>
+                                        <h5>a) As desafiadoras, que exigem ação rápida.</h5>
+                                        <select id="DezesseisA" name="DezesseisA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Administrar os recursos disponíveis.</h5>
+                                        <select id="DezesseisB" name="DezesseisB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Motivar as pessoas para darem o melhor de si.</h5>
+                                        <select id="DezesseisC" name="DezesseisC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Destacar logo o que não funciona.</h5>
+                                        <select id="DezesseisD" name="DezesseisD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>17) Liderar é uma atividade que gosta de exercer: </h4>
+                                        </label>
+                                        <h5>a) Por pouco tempo e dependendo da situação.</h5>
+                                        <select id="DezesseteA" name="DezesseteA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Quando pode comandar do começo ao fim.</h5>
+                                        <select id="DezesseteB" name="DezesseteB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Quando é preciso identificar e reunir talentos.</h5>
+                                        <select id="DezesseteC" name="DezesseteC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Quando o raciocínio estratégico é necessário.</h5>
+                                        <select id="DezesseteD" name="DezesseteD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>18) Em uma escola, você gostaria de ser: </h4>
+                                        </label>
+                                        <h5>a) Professor de educação física.</h5>
+                                        <select id="DezoitoA" name="DezoitoA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Diretor.</h5>
+                                        <select id="DezoitoB" name="DezoitoB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Professor de literatura.</h5>
+                                        <select id="DezoitoC" name="DezoitoC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Professor de matemática ou física.</h5>
+                                        <select id="DezoitoD" name="DezoitoD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>19) É um elogio quando se referem a você como: </h4>
+                                        </label>
+                                        <h5>a) Corajoso, otimista e divertido.</h5>
+                                        <select id="DezenoveA" name="DezenoveA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) Cauteloso, responsável e aplicado.</h5>
+                                        <select id="DezenoveB" name="DezenoveB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) Harmonioso, integro e sábio.</h5>
+                                        <select id="DezenoveC" name="DezenoveC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) Uma mente brilhante.</h5>
+                                        <select id="DezenoveD" name="DezenoveD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <br>
+                                        <label>
+                                            <h4>20) Frases que tem a ver com você:</h4>
+                                        </label>
+                                        <h5>a) "Deixo a vida me levar...".</h5>
+                                        <select id="VinteA" name="VinteA">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>b) "Manda quem pode, obedece quem tem juízo".</h5>
+                                        <select id="VinteB" name="VinteB">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>c) "Para seu próprio interesse, seja verdadeiro".</h5>
+                                        <select id="VinteC" name="VinteC">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                        <h5>d) "Penso, logo existo".</h5>
+                                        <select id="VinteD" name="VinteD">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid tm-content-container mx-auto pt-5">
+                
+                <div class="row mt-5 pt-3">
+                    <div class="col-xl-6 col-lg-12 mb-4">
+                        <div class="tm-bg-gray p-5 h-100">
+                            <img src="img/logo/imgrodape.png" class="imgrodape">
+                            
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+                        <div class="p-5 tm-bg-gray">
+                            <h3 class="tm-text-primary mb-4">Vestibulares</h3>
+                            <ul class="list-unstyled tm-footer-links">
+                                <li><a href="https://enem.inep.gov.br/participante/#!/">Enem</a></li>
+                                <li><a href="https://www.fuvest.br/vestibular-da-usp/">Fuvest</a></li>
+                                <li><a href="https://www.comvest.unicamp.br/">Convest</a></li>
+                                <li><a href="https://www.vunesp.com.br/">Vunesp</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 mb-4">
+                        <div class="p-5 tm-bg-gray h-100">
+                            <h3 class="tm-text-primary mb-4">Outras Páginas</h3>
+                            <ul class="list-unstyled tm-footer-links">
+                                <li><a href="index.html">Vídeos</a></li>
+                                <li><a href="preteste.html">Teste Vocacional</a></li>
+                                <li><a href="about.html">Sobre nós</a></li>
+                                <li><a href="contact.html">Quem somos nós</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <footer class="row pt-5">
+                    <div class="col-12">
+                        <p class="text-right">TCC Teste Vocacional 3º ETIM &copy;
+                    </div>
+                </footer>
+            </div>
+        </div>
+    
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+    </body>
+    </html>
